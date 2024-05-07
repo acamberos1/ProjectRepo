@@ -29,7 +29,10 @@ public class TextAdventure {
 
     }
     public void northArea() {
-        System.out.println("As you try to move past the field you see a");
+        System.out.println("As you try to move past the field you see a human sized snowman. For a second you think you see him wave until you blink again.\n");
         
+    }
+    public void southArea() {
+        System.out.println("You look back and see the landscape go from tall golden grass to bare dirt and slowly lead to the dunes. The dunes look endless and unhospitable. You see something glint in the distance. You need to explore more to get it but is it safe? \n");
     }
 }
