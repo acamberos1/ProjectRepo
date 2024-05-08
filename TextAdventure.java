@@ -18,7 +18,7 @@ public class TextAdventure {
         System.out.println(
                 "You woke up in a golden wheat field, you don't remember much except that you want to go home.All you have are the clothes on your back and a map. Enter the number of the direction you want to go");
                 System.out.println("\n");
-                System.out.println("1:North 2:South 3:West 4:East");
+                System.out.println("1:North ,2:South, 3:West, 4:East");
         //userMoveInput = scanner.nextint();
         textAdventure.crossRoad();
 
@@ -42,7 +42,7 @@ public class TextAdventure {
 
    
     public static void northArea() {
-        System.out.println("As you try to move past the field you notice a forest of pine trees lightly covered in a blanket of snow. A barely visible dirt road is seen between the trees. You see a human sized snowman. For a second you think you see him wave until you blink again.\n The snowman is gone and suddenly the ");
+        System.out.println("As you try to move past the field you notice a forest of pine trees lightly covered in a blanket of snow. A barely visible dirt road is seen between the trees. You see a human sized snowman. For a second you think you see him wave until you blink again.\n The snowman is gone and suddenly a sky blue door appears before you. ");
         
     }
     public void southArea() {
